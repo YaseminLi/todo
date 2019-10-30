@@ -1,0 +1,68 @@
+@import "./color.scss";
+@media (min-width: 1080px) { 
+    #slide{
+        width: 290px;
+    }
+ }
+@media (min-width:768px)and (max-width: 1080px){
+    #slide{
+        width: 200px;
+    }
+}
+@media  (max-width: 768px){
+    #slide{
+        width: 50px;
+    }
+}
+#content{
+    flex:1 1 0px;
+}
+#slide{
+    background: $bg-grey-l;
+}
+#slide .menu{
+margin-top:12px;
+padding:0 8px;
+display: inline-block;
+// height:48px;
+line-height: 3rem;
+} 
+.icon-zhankai{
+    color:$blue;
+    font-size:1.2rem;
+    width: 2rem;
+    height: 2rem;
+    padding:4px ;
+    align-items: center;
+}
+.nav-pills .nav-link{
+    border-radius: 0px !important;
+    color:$black;
+    font-size:14px;
+    padding:0 12px;
+    line-height:43.19px;
+    display: flex;
+    align-items: center;
+}
+.nav-pills .nav-link:hover{
+    background: $white;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: $bg-grey-ll !important;
+    font-weight:600 ;
+    color:$black !important;
+}
+.nav-icon{
+   margin:0 4px;
+}
+.nav-title{
+    margin: 0 .5rem;
+}
+.count{
+    margin-left:auto;
+}
+
+.nav-content{
+    padding: 0 !important;
+    height: 100% !important;
+}

@@ -1,0 +1,32 @@
+$font-family-base:"Microsoft Yahei",
+"微软雅黑",
+"STXihei",
+"Meiryo UI",
+"Meiryo",
+"メイリオ",
+"ＭＳ Ｐゴシック",
+"MS PGothic",
+"Hiragino Kaku Gothic Pro",
+"Arial Unicode MS",
+"Helvetica Neue",
+"Helvetica",
+"Arial",
+sans-serif;
+html,body{
+    height:100% !important;
+}
+#root {
+    height: 100%;
+}
+
+.root-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+@import "./header.scss";
+@import "./left.scss";
+@import "./template.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";

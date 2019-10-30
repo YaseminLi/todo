@@ -1,0 +1,43 @@
+@import "./color.scss";
+
+.header {
+    height: 48px;
+    background: $bg-blue;
+}
+
+.header-title {
+    color: $white;
+    line-height: 48px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.search {
+    background: rgba(244,246,255,0.8);
+    margin: 0.5rem 2rem;
+    padding: 0 !important;
+}
+.search:hover{
+    background: $white;
+}
+.icon-search {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    color: $blue;
+}
+#input-search{
+    padding:0 0 0 .5rem ;
+    color:$black;
+    background-color:rgba(0,0,0,0)
+}
+#input-search::-webkit-input-placeholder{
+    color:$blue;
+}
+#input-search:focus::-webkit-input-placeholder{
+    color:$black;
+}
